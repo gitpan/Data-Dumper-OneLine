@@ -28,12 +28,12 @@ no_index:
 provides:
   Data::Dumper::OneLine:
     file: lib/Data/Dumper/OneLine.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   perl: '5.008005'
 resources:
   bugtracker: https://github.com/Cside/Data-Dumper-OneLine/issues
   homepage: https://github.com/Cside/Data-Dumper-OneLine
   repository: git://github.com/Cside/Data-Dumper-OneLine.git
-version: '0.01'
+version: '0.02'
 x_authority: cpan:CSIDE
