@@ -3,7 +3,9 @@ abstract: 'Dumps data as one line string'
 author:
   - 'Hiroki Honda <cside.story@gmail.com>'
 build_requires:
-  Test::More: '0.98'
+  Encode: '0'
+  Test::Exception: '0'
+  Test::More: '0'
 configure_requires:
   CPAN::Meta: '0'
   CPAN::Meta::Prereqs: '0'
@@ -28,12 +30,15 @@ no_index:
 provides:
   Data::Dumper::OneLine:
     file: lib/Data/Dumper/OneLine.pm
-    version: '0.02'
+    version: '0.03'
 requires:
-  perl: '5.008005'
+  Data::Recursive::Encode: '0'
+  autodie: '0'
+  parent: '0'
+  perl: '5.010000'
 resources:
   bugtracker: https://github.com/Cside/Data-Dumper-OneLine/issues
   homepage: https://github.com/Cside/Data-Dumper-OneLine
   repository: git://github.com/Cside/Data-Dumper-OneLine.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:CSIDE
