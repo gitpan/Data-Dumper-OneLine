@@ -61,7 +61,7 @@
    "provides" : {
       "Data::Dumper::OneLine" : {
          "file" : "lib/Data/Dumper/OneLine.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -75,6 +75,6 @@
          "web" : "https://github.com/Cside/Data-Dumper-OneLine"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:CSIDE"
 }
