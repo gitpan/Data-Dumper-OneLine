@@ -45,7 +45,6 @@
       "runtime" : {
          "requires" : {
             "Data::Recursive::Encode" : "0",
-            "autodie" : "0",
             "parent" : "0",
             "perl" : "5.008005"
          }
@@ -61,7 +60,7 @@
    "provides" : {
       "Data::Dumper::OneLine" : {
          "file" : "lib/Data/Dumper/OneLine.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -75,6 +74,6 @@
          "web" : "https://github.com/Cside/Data-Dumper-OneLine"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_authority" : "cpan:CSIDE"
 }

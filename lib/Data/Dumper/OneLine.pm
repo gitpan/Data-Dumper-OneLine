@@ -7,7 +7,7 @@ use Data::Recursive::Encode;
 use parent qw(Exporter);
 our @EXPORT = qw(Dumper);
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 our $Encoding;
 
 sub Dumper {
@@ -23,7 +23,7 @@ sub Dumper {
     }
 
     my $str = Data::Dumper::Dumper($stuff);
-    $str =~ s/[\n\r]//g;
+    $str =~ s/[\n\r]/ /g;
     return $str;
 }
 
